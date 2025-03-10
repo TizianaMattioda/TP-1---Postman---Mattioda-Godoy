@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "834b1ecd-e841-494b-93c6-eff23f480e85",
+		"name": "TP1-DAI-titi&bruno",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CARS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?i=tt3896198&apikey=174d845b&s=cars&type=movie",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "i",
+							"value": "tt3896198"
+						},
+						{
+							"key": "apikey",
+							"value": "174d845b"
+						},
+						{
+							"key": "s",
+							"value": "cars"
+						},
+						{
+							"key": "type",
+							"value": "movie"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HUNGER",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?i=tt3896198&apikey=174d845b&t=hunger&type=movie",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "i",
+							"value": "tt3896198"
+						},
+						{
+							"key": "apikey",
+							"value": "174d845b"
+						},
+						{
+							"key": "t",
+							"value": "hunger"
+						},
+						{
+							"key": "type",
+							"value": "movie"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MonstersINC",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ROCKY",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=174d845b&i=tt0067992",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "174d845b"
+						},
+						{
+							"key": "i",
+							"value": "tt0067992"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
