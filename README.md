@@ -1,7 +1,7 @@
 # TP-1---Postman---Mattioda-Godoy
 ## TP 1 - Postman
 
-### 1. Identificar cuantas pelicilas tienen en su titulo "<ins>Cars</ins>".
+### 1. Identificar cuantas peliculas tienen en su titulo "<ins>Cars</ins>".
 > ### Ejecución: 
 >   http://www.omdbapi.com/?i=tt3896198&apikey=174d845b&s=cars&type=movie
 > ### Respuesta: 
